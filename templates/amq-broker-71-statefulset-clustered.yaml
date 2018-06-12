@@ -288,4 +288,5 @@ parameters:
   displayName: Image
   name: IMAGE
   required: true
-  value: registry.access.redhat.com/amq-broker-7-tech-preview/amq-broker-71-openshift:1.0
+  value: brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888/amq-broker-7-tech-preview/amq-broker-71-openshift:1.0-7
+  #  value: registry.access.redhat.com/amq-broker-7-tech-preview/amq-broker-71-openshift:1.0

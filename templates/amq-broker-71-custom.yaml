@@ -232,10 +232,9 @@ parameters:
 - description: The broker.xml configuration file.
   displayName: broker.xml
   name: BROKER_XML
-  value: |-
-    <!-- Remove this tag to enable custom configuration --> 
+  value: |- 
     <?xml version='1.0'?>
-    <!--
+    <!-- CUSTOM
     Licensed to the Apache Software Foundation (ASF) under one
     or more contributor license agreements.  See the NOTICE file
     distributed with this work for additional information
@@ -450,8 +449,7 @@ parameters:
   displayName: logging.properties
   name: LOGGING_PROPERTIES
   value: |-
-    <!-- Remove this tag to enable custom configuration --> 
-    #
+    # CUSTOM
     # Licensed to the Apache Software Foundation (ASF) under one or more
     # contributor license agreements. See the NOTICE file distributed with
     # this work for additional information regarding copyright ownership.
